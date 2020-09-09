@@ -5,13 +5,13 @@ class ToDoDataService{
 retrieveAllToDos(name){
 
 
-    return axios.get(`http://localhost:8080/users/${name}/todos`)
+    return axios.get(`http://firstspringapp-env.eba-2yatcdy8.ap-south-1.elasticbeanstalk.com/users/${name}/todos`)
 }
 
 deleteToDO(name,id){
 
 
-    return axios.delete(`http://localhost:8080/users/${name}/todos/${id}`)
+    return axios.delete(`http://firstspringapp-env.eba-2yatcdy8.ap-south-1.elasticbeanstalk.com/users/${name}/todos/${id}`)
 }
 
 
